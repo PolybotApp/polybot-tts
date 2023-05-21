@@ -6,9 +6,12 @@ Pod::Spec.new do |s|
   s.name         = "polybot-tts"
   s.version      = package["version"]
   s.summary      = package["description"]
+  s.authors      = { "Conrad Guest" => "conradwrg@outlook.com" }
   s.description  = <<-DESC
                   polybot-tts
                    DESC
+  s.homepage     = "https://github.com/PolybotApp/polybot-tts"
+  s.source       = { :git => "https://github.com/PolybotApp/polybot-tts.git" }
   # brief license entry:
   s.license      = "MIT"
   # optional - use expanded license entry instead:
